@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VaultDB App</title>
+  <title>on_Frontend</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-[#F5F5F7] text-[#1D1D1F] min-h-screen flex items-center justify-center p-4 font-sans antialiased">
@@ -26,7 +26,7 @@
     <div id="app-screen" class="hidden space-y-5">
       <div class="flex items-center justify-between border-b border-[#E5E5EA] pb-3">
         <div>
-          <h2 class="text-lg font-semibold">VaultDB App</h2>
+          <h2 class="text-lg font-semibold">on_Frontend</h2>
           <p class="text-xs text-[#86868B]">מחובר ל-data.json דרך Cloudflare Worker</p>
         </div>
         <button type="button" id="lock-btn" class="px-3.5 py-1.5 rounded-full bg-[#F5F5F7] hover:bg-gray-200 text-xs font-medium">
@@ -48,7 +48,7 @@
   </div>
 
   <script>
-    const SALTED_VAULT = {"salt":"PLACEHOLDER","iv":"PLACEHOLDER","cipher":"PLACEHOLDER"};
+    const SALTED_VAULT = {"salt":"vS1Zv9aWCBNMzPW1YE7fzw==","iv":"MFjq6LppxD+EmrU/","cipher":"BrWMKyQxKvf4gKoKrGy3H2AYJV+kh20iNRoZcmippNd4SHDLd3qHNOEPJpM88LOhCTP+VMO+lZwCGrtXgMXii6+Z54wlwz8h2GMEMQ=="};
     let currentItems = [];
 
     const VaultDB = {
